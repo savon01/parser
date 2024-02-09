@@ -1,14 +1,62 @@
 import json
-
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
-# Создайте список для объектов с данными
-data_list = []
 
-# Инициализация Playwright
+all_data = []
+formatted_data = []  # Создаем новый список для отформатированных данных
+
+def parse_store_data(card_html):
+    soup = BeautifulSoup(card_html, 'html.parser')
+    data = {
+        "name": "",
+        "address": "",
+        "latlon": [],
+        "phones": [],
+        "working_hours": []
+    }
+
+    # Extract and save store names
+    names = [element.text.strip() for element in soup.find_all('h3', class_='elementor-size-default') if
+             element.text.strip()]
+
+    # Extract and save addresses, phones, and working hours
+    addresses = []
+    phones = []
+    working_hours = []
+    for element in soup.find_all('div', class_='elementor-text-editor'):
+        for paragraph in element.find_all('p'):
+            if 'Dirección:' in paragraph.text:
+                address = paragraph.text.split(':', 1)[1].strip()
+                if address:
+                    addresses.append(address)
+            elif 'Teléfono:' in paragraph.text:
+                phone_list = [phone.strip() for phone in paragraph.text.split(':', 1)[1].split(',')]
+                phones.extend(phone_list)
+            elif 'Horario de atención:' in paragraph.text:
+                hours_list = [line.strip() for line in paragraph.text.split(':', 1)[1].split('\n') if line.strip()]
+                working_hours.extend(hours_list)
+
+    # Remove empty elements from lists
+    addresses = [address for address in addresses if address]
+    phones = [phone for phone in phones if phone]
+    working_hours = [hours for hours in working_hours if hours]
+
+    # Check if at least one field is not empty
+    if names:
+        data["name"] = names
+        data["address"] = addresses
+        data["phones"] = phones
+        data["working_hours"] = working_hours
+        data["latlon"] = [6.1991563, -75.574123]
+        return data
+    else:
+        return None  # Return None if no names were found
+
+
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch()
-    page = browser.new_page()
+    context = browser.new_context()
+    page = context.new_page()
 
     url = "https://www.santaelena.com.co/"
     page.goto(url)
@@ -17,9 +65,8 @@ with sync_playwright() as playwright:
     page.wait_for_load_state('networkidle')
 
     # Находим ссылку и кликаем на нее
-    link_selector = 'li.menu-item-512'
-    link = page.query_selector(link_selector)
-    link.click()
+    link_selector = '.menu-item-512'
+    page.click(link_selector)
 
     # Ждем загрузки контента
     page.wait_for_load_state('networkidle')
@@ -28,13 +75,11 @@ with sync_playwright() as playwright:
     links_selector2 = 'div.elementor-widget-button a'
     links = page.query_selector_all(links_selector2)
 
-    all_data = []  # Список для хранения данных со всех страниц
-
     for link in links:
         href = link.get_attribute('href')
 
         # Открываем новую страницу
-        new_page = browser.new_page()
+        new_page = context.new_page()
 
         # Переходим по ссылке
         new_page.goto(href)
@@ -47,37 +92,22 @@ with sync_playwright() as playwright:
 
         for card in cards:
             card_html = card.inner_html()
-            soup = BeautifulSoup(card_html, 'html.parser')
-            element = soup.find_all('h3', class_='elementor-heading-title')
+            data = parse_store_data(card_html)
+            if data is not None:  # Check if data is not None before trying to access its keys
+                formatted_data.append({
+                    "name": data["name"],
+                    "address": data["address"],
+                    "latlon": data["latlon"],
+                    "phones": data["phones"],
+                    "working_hours": data["working_hours"]
+                })
 
-            # for name in element:
-            #     if name is not None:
-            #         print(name.text)
-            divs = soup.find_all('div', class_='elementor-text-editor elementor-clearfix')
-
-            # Iterate over each div and extract the data
-            for div in divs:
-                address = None
-                for p in div.find_all('p'):
-                    # Check if the paragraph starts with "Dirección:"
-                    if p.strong and p.strong.text.strip() == "Dirección":
-                        # Extract the text after "Dirección:"
-                        address = p.text.split(':', 1)[1].strip()
-                        break  # No need to continue if we found the address
-
-                # Print the address
-                if address:
-                    print(f"Dirección: {address}")
-                else:
-                    print("Dirección no encontrada.")
-        # Закрываем новую страницу
+    # Закрываем новую страницу
         new_page.close()
 
     # Закрываем браузер
     browser.close()
 
-with open('senta_elena.json', 'w', encoding='utf-8') as json_file:
-    json.dump(data_list, json_file, ensure_ascii=False, indent=4)
-
-
-
+# Записываем данные в файл JSON
+with open('santa_elena.json', 'w', encoding='utf-8') as json_file:
+    json.dump(formatted_data, json_file, ensure_ascii=False, indent=4)
