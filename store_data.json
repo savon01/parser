@@ -1,0 +1,282 @@
+[
+    {
+        "name": "Centro Comercial Mayorca  Etapa 1",
+        "address": "Dirección: Calle 51 Sur # 48 – 57 Local 324",
+        "phones": [
+            "3256600 ext 4906"
+        ],
+        "working_hours": [
+            "Lunes a sábado: 9:00 a.m. – 8:00 p.m., Domingos: 11:30 a.m. – 7:30 p.m"
+        ]
+    },
+    {
+        "name": "Centro Comercial MayorcaEtapa 2",
+        "address": "Dirección: Calle 51 Sur # 48 – 57 Local 0910",
+        "phones": [
+            "3256600 ext 4910"
+        ],
+        "working_hours": [
+            "Lunes a sábado: 9:00 a.m. – 8:00 p.m., Domingos: 11:30 a.m. – 7:30 p.m"
+        ]
+    },
+    {
+        "name": "Centro Comercial Oviedo",
+        "address": "Dirección: Cra. 43a # 6 Sur – 15 Local 1324",
+        "phones": [
+            "3256600 ext 4902"
+        ],
+        "working_hours": [
+            "Lunes a sábado: 9:00 a.m. – 8:00 p.m., Domingos: 11:30 a.m. – 7:30 p.m."
+        ]
+    },
+    {
+        "name": "Centro Comercial Unicentro ",
+        "address": "Dirección: Cra 66 B # 34 A 76Local 200",
+        "phones": [
+            "3256600 ext 4907"
+        ],
+        "working_hours": [
+            "Lunes a sábado: 8:30 a.m. – 8:30 p.m., Domingos: 10:30 a.m. – 7:30 p.m."
+        ]
+    },
+    {
+        "name": "Mall La Frontera ",
+        "address": "Dirección: Cra. 43a # 18 Sur – 166Local 108",
+        "phones": [
+            "3256600 ext 4903"
+        ],
+        "working_hours": [
+            "Lunes a sábado: 7:00 a.m. – 7:30 p.m., Domingos: 8:30 a.m. – 5:00 p.m."
+        ]
+    },
+    {
+        "name": "Estación Ferrocarril",
+        "address": "Dirección:Cra. 52 # 43-31",
+        "phones": [
+            "3256600 ext 4913"
+        ],
+        "working_hours": [
+            "Lunes a viernes: 6:30 a.m. – 5:30 p.m., Sábados: 7:00 a.m. – 12:00 p.m."
+        ]
+    },
+    {
+        "name": "Universidad Pontificia Bolivariana",
+        "address": "Dirección: Circular 1 # 70 – 01Boulevar Biblioteca",
+        "phones": [
+            "3256600 ext 4911"
+        ],
+        "working_hours": [
+            "Lunes a viernes: 6:30 a.m. – 8:30 p.m., Sábados: 7:30 a.m. – 12:30 p.m."
+        ]
+    },
+    {
+        "name": "Viva Laureles",
+        "address": "Dirección: Carrera 81 # 37 – 100",
+        "phones": [
+            "3256600 ext 4912"
+        ],
+        "working_hours": [
+            "Lunes a sábado: 8:30 a.m. – 8:00 p.m., Domingos y festivos: 10:30 a.m. – 7:00 p.m."
+        ]
+    },
+    {
+        "name": "Terminal del Sur",
+        "address": "Dirección: Cra. 65 # 8 B 91Local 146",
+        "phones": [
+            "3256600 ext 4905"
+        ],
+        "working_hours": [
+            "Lunes a sábado: 7:30 a.m. – 6:30 p.m., Domingos: 8:30 a.m. – 6:00 p.m."
+        ]
+    },
+    {
+        "name": "Aeropuerto Olaya Herrera",
+        "address": "Dirección: Cra. 65a # 13 – 157Local 27 – 28",
+        "phones": [
+            "3256600 ext 4904"
+        ],
+        "working_hours": [
+            "Lunes a sábado: 4:30 a.m. – 5:30 p.m., Domingos: 6:30 a.m. – 5:00 p.m"
+        ]
+    },
+    {
+        "name": "Aeropuerto  Internacional José María Córdoba",
+        "address": "Dirección: Entrada 4, Sala 9 Frente al counter de Avianca",
+        "phones": [
+            "3256600 ext 4914"
+        ],
+        "working_hours": [
+            "Prestamos servicio 24 horas."
+        ]
+    },
+    {
+        "name": "Terminal del Norte",
+        "address": "Dirección: Carrera. 64c # 78 – 580Local 490",
+        "phones": [
+            "3256600 ext 4908"
+        ],
+        "working_hours": [
+            "Lunes a sábado: 7:00 a.m. – 8:30 p.m., Domingos: 8:30 a.m. – 7:30 p.m."
+        ]
+    },
+    {
+        "name": "                        Parque el Poblado",
+        "address": "Dirección: Carrera 43A # 8 – 36",
+        "phones": [
+            "3256600 ext 4901"
+        ],
+        "working_hours": [
+            "Lunes a sábado: 7:00 a.m. – 6:30 p.m., Domingos: 9:30 a.m. – 3:30 p.m."
+        ]
+    },
+    {
+        "name": "Centro Comercial El Retiro",
+        "address": "Dirección:Calle 82 11-75 Local 124",
+        "phones": [
+            "604 325 6600 ext 4000 - 604 448 0060"
+        ],
+        "working_hours": [
+            "Lunes a Sábado: 9:00 a. m. / 8:00 p.m., Domingos y festivos:  9:30 a. m. / 7:00 p.m"
+        ]
+    },
+    {
+        "name": "Centro Comercial Plaza De Las Américas",
+        "address": "Dirección: Cra. 71d # 6 – 94 Sur Local 1908",
+        "phones": [
+            "3116447470"
+        ],
+        "working_hours": [
+            "Lunes a Sábado: 9:00 a. m. / 8:00 p.m., Domingos y Festivos – 9:30 a. m. / 7:00 p.m."
+        ]
+    },
+    {
+        "name": "Centro Comercial  Hacienda Santa Bárbara",
+        "address": "Dirección: Av. Cra. 7 # 115 – 60 Local 220",
+        "phones": [
+            "604 325 6600 ext 4000 - 604 448 0060"
+        ],
+        "working_hours": [
+            "Lunes a Sábado: 9:00 a.m. / 7:30 p.m., Domingos y Festivos: 9:30 a.m. / 6:00 p.m."
+        ]
+    },
+    {
+        "name": "Calle 119",
+        "address": "Dirección: Calle 119 # 14 – 10",
+        "phones": [
+            "604 325 6600 ext 4000 - 604 448 0060"
+        ],
+        "working_hours": [
+            "Lunes a Sábado: 8:00 a. m. / 6:30 p.m., Domingo y festivos: 8:00 a. m./ 6:00 p.m.  "
+        ]
+    },
+    {
+        "name": "Ktronix Salitre",
+        "address": "Dirección: Cra 68b # 25 B – 80",
+        "phones": [
+            "3116447470"
+        ],
+        "working_hours": [
+            "Lunes a Sábado: 8:30 a. m. / 7:30 p.m., Domingos y festivos: 8:30 a. m. / 6:00 p.m"
+        ]
+    },
+    {
+        "name": "Calle 95",
+        "address": "Dirección: Calle 95 # 13 – 55",
+        "phones": [
+            "604 325 6600 ext 4000 - 604 448 0060"
+        ],
+        "working_hours": [
+            "Lunes a Sábado: 8:30 a. m. / 6:00 p.m., Domingos y festivos: 9:30 a. m. / 6:00 p.m."
+        ]
+    },
+    {
+        "name": "Aeropuerto Internacional El Dorado  - Puente Aéreo",
+        "address": "Dirección: Terminal Puente Aéreo",
+        "phones": [
+            "604 325 6600 ext 4000 - 604 448 0060"
+        ],
+        "working_hours": [
+            "Lunes a domingos incluye festivos: 6:30 a. m. / 9:30 p.m."
+        ]
+    },
+    {
+        "name": "Aeropuerto Internacional El Dorado -\nMuelle Sur",
+        "address": "Dirección: Av. El Dorado # 113 – 85Muelle Nacional Sur – Segundo Piso",
+        "phones": [
+            "Contacto: 316 017 5000"
+        ],
+        "working_hours": [
+            "Dirección: Aeropuerto El Dorado – Terminal 1 muelle Nacional Norte, Horario de atención: Prestamos servicio 24 horas."
+        ]
+    },
+    {
+        "name": "Aeropuerto Internacional El Dorado -\nMuelle Norte",
+        "address": "Dirección: Aeropuerto El Dorado – Terminal 1 muelle Nacional Norte",
+        "phones": [
+            "604 325 6600 ext 4000 - 604 448 0060"
+        ],
+        "working_hours": [
+            "Dirección: Av. El Dorado # 113 – 85Salida Internacional – Segundo Piso, Horario de atención: Prestamos servicio las 24 horas."
+        ]
+    },
+    {
+        "name": "Aeropuerto Internacional \nEl Dorado - Salidas Internacionales\n",
+        "address": "Dirección: Av. El Dorado # 113 – 85Salida Internacional – Segundo Piso",
+        "phones": [
+            "604 325 6600 ext 4000 - 604 448 0060"
+        ],
+        "working_hours": [
+            "Dirección: Aeropuerto El Dorado – Llegadas nacionales, Horario de atención: Prestamos servicio 24 horas."
+        ]
+    },
+    {
+        "name": "Aeropuerto Internacional El Dorado - Hall Público",
+        "address": "Dirección: Aeropuerto El Dorado – Llegadas nacionales",
+        "phones": [
+            "604 325 6600 ext 4000 - 604 448 0060"
+        ],
+        "working_hours": [
+            "Pastelería Santa Elena tiene los siguientes puntos en la ciudad de Bogotá: Centro Comercial El Retiro, Centro Comercial Plaza De Las Américas, Centro ComercialHacienda Santa Bárbara, Calle 119, Ktronix, Calle 95, Aeropuerto Internacional El Dorado Puente Aéreo, Aeropuerto Internacional El Dorado Muelle Nacional, Aeropuerto Internacional El Dorado Salidas Internacionales, Aeropuerto El Dorado Hall Público."
+        ]
+    },
+    {
+        "name": "Aeropuerto Internacional Los Garzones - Zona Pública",
+        "address": "<p>Km 10 vía Montería<br/>Local 102 – Zona pública</p>",
+        "phones": [
+            "604 325 6600 ext 4000 - 604 448 0060"
+        ],
+        "working_hours": [
+            "Lunes a Sábado: 6:30 a.m. / 8:30 p.m.Domingos y festivos: 6:30 a.m. / 8:30 p.m. "
+        ]
+    },
+    {
+        "name": "Aeropuerto Internacional Los Garzones - Sala Abordaje ",
+        "address": "<p>Km 10 vía Montería<br/>Local 107 – Sala de abordaje</p>",
+        "phones": [
+            "Contacto: 315 366 1214"
+        ],
+        "working_hours": [
+            "Lunes a Sábado: 6:30 a.m. / 8:30 p.m.Domingos y festivos: 6:30 a.m. / 8:30 p.m."
+        ]
+    },
+    {
+        "name": "Aeropuerto Internacional Ernesto Cortissoz – Soledad, Barranquilla",
+        "address": "<p>Frente al counter de Copa Air Lines<br/>Local 020516</p>",
+        "phones": [
+            "604 325 6600 ext 4000 - 604 448 0060"
+        ],
+        "working_hours": [
+            "Lunes a sábado: 4:00 a.m. / 8:30 p.m."
+        ]
+    },
+    {
+        "name": "Aeropuerto Internacional Matecaña – Pereira, Risaralda",
+        "address": "Dirección: Medellín Cra.43ª No. 8-44Bogotá Calle 73 No. 53-25",
+        "phones": [
+            "Medellín 325-66-00"
+        ],
+        "working_hours": [
+            "Lunes a domingo: 5:00 a.m. / 12:00 a.m."
+        ]
+    }
+]
