@@ -1,11 +1,12 @@
 import json
-import re
+
 from bs4 import Tag
-from geopy.geocoders import Nominatim
+from geopy import GoogleV3
 
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
+your_api_key = 'your_api_key'
 
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch()
@@ -84,45 +85,33 @@ with sync_playwright() as playwright:
                         work1 = paragraph.find_next('p')
                         working_hours.append(work1.text)
             addresses.pop(-2)
-
-            links_all = []
-            links_map = []
-
-            coordinates = []
-
-            link_elements = soup.find_all('a', class_='elementor-button-link')
-            for link_element in link_elements:
-                link = link_element['href']
-                links_all.append(link)
-
-            for link in links_all:
-                if re.search(r'google.com/maps', link):
-                    links_map.append(link)
-
-            for url in links_map:
-                geolocator = Nominatim(user_agent='my_app')
-                location = geolocator.geocode(url)
-
-                if location:
-                    latitude = location.latitude
-                    longitude = location.longitude
-
+            locations_list = []
+            for u in addresses:
+                        location = GoogleV3(api_key=your_api_key).geocode(u)
+                        if location is not None:
+                            locations_list.append(f"{location.latitude}, {location.longitude}")
+                        else:
+                            locations_list.append('')
 
             store_data = []
 
-            for name, address, phone, working_hours in zip(name_list, addresses, phones, working_hours):
+            for name, address, latlon, phone, working_hours in zip(name_list, addresses, locations_list, phones, working_hours):
                 store = {
                     "name": name,
                     "address": address,
+                    "latlon": [latlon],
                     "phones": [phone],
                     "working_hours": [working_hours]
                 }
                 store_data.append(store)
+
+            print(store_data)
                 # Close the new page
             new_page.close()
 
     # Close the browser
     browser.close()
+
 def convert_to_serializable(data):
     if isinstance(data, Tag):
         return str(data)
@@ -140,5 +129,3 @@ filename = "store_data.json"
 # Сохранение данных в JSON-файл
 with open(filename, "w", encoding='utf-8') as json_file:
     json.dump(store_data_serializable, json_file, ensure_ascii=False, indent=4)
-
-

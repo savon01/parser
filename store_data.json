@@ -2,6 +2,12 @@
     {
         "name": "Centro Comercial Mayorca  Etapa 1",
         "address": "Dirección: Calle 51 Sur # 48 – 57 Local 324",
+        "latlon": [
+            [
+                6.1618172,
+                -75.6055153
+            ]
+        ],
         "phones": [
             "3256600 ext 4906"
         ],
@@ -12,6 +18,12 @@
     {
         "name": "Centro Comercial MayorcaEtapa 2",
         "address": "Dirección: Calle 51 Sur # 48 – 57 Local 0910",
+        "latlon": [
+            [
+                6.1618505,
+                -75.6054815
+            ]
+        ],
         "phones": [
             "3256600 ext 4910"
         ],
@@ -22,6 +34,12 @@
     {
         "name": "Centro Comercial Oviedo",
         "address": "Dirección: Cra. 43a # 6 Sur – 15 Local 1324",
+        "latlon": [
+            [
+                6.197747199999999,
+                -75.5746333
+            ]
+        ],
         "phones": [
             "3256600 ext 4902"
         ],
@@ -32,6 +50,9 @@
     {
         "name": "Centro Comercial Unicentro ",
         "address": "Dirección: Cra 66 B # 34 A 76Local 200",
+        "latlon": [
+            ""
+        ],
         "phones": [
             "3256600 ext 4907"
         ],
@@ -42,6 +63,9 @@
     {
         "name": "Mall La Frontera ",
         "address": "Dirección: Cra. 43a # 18 Sur – 166Local 108",
+        "latlon": [
+            ""
+        ],
         "phones": [
             "3256600 ext 4903"
         ],
@@ -52,6 +76,12 @@
     {
         "name": "Estación Ferrocarril",
         "address": "Dirección:Cra. 52 # 43-31",
+        "latlon": [
+            [
+                6.244532800000001,
+                -75.57174950000001
+            ]
+        ],
         "phones": [
             "3256600 ext 4913"
         ],
@@ -62,6 +92,12 @@
     {
         "name": "Universidad Pontificia Bolivariana",
         "address": "Dirección: Circular 1 # 70 – 01Boulevar Biblioteca",
+        "latlon": [
+            [
+                6.241205099999999,
+                -75.5884238
+            ]
+        ],
         "phones": [
             "3256600 ext 4911"
         ],
@@ -72,6 +108,12 @@
     {
         "name": "Viva Laureles",
         "address": "Dirección: Carrera 81 # 37 – 100",
+        "latlon": [
+            [
+                6.246194999999999,
+                -75.6022162
+            ]
+        ],
         "phones": [
             "3256600 ext 4912"
         ],
@@ -82,6 +124,12 @@
     {
         "name": "Terminal del Sur",
         "address": "Dirección: Cra. 65 # 8 B 91Local 146",
+        "latlon": [
+            [
+                4.6269749,
+                -74.1196145
+            ]
+        ],
         "phones": [
             "3256600 ext 4905"
         ],
@@ -92,6 +140,12 @@
     {
         "name": "Aeropuerto Olaya Herrera",
         "address": "Dirección: Cra. 65a # 13 – 157Local 27 – 28",
+        "latlon": [
+            [
+                3.4000358,
+                -76.53448159999999
+            ]
+        ],
         "phones": [
             "3256600 ext 4904"
         ],
@@ -102,6 +156,9 @@
     {
         "name": "Aeropuerto  Internacional José María Córdoba",
         "address": "Dirección: Entrada 4, Sala 9 Frente al counter de Avianca",
+        "latlon": [
+            ""
+        ],
         "phones": [
             "3256600 ext 4914"
         ],
@@ -112,6 +169,12 @@
     {
         "name": "Terminal del Norte",
         "address": "Dirección: Carrera. 64c # 78 – 580Local 490",
+        "latlon": [
+            [
+                6.2798671,
+                -75.5711791
+            ]
+        ],
         "phones": [
             "3256600 ext 4908"
         ],
@@ -122,6 +185,12 @@
     {
         "name": "                        Parque el Poblado",
         "address": "Dirección: Carrera 43A # 8 – 36",
+        "latlon": [
+            [
+                6.171622699999999,
+                -75.5878005
+            ]
+        ],
         "phones": [
             "3256600 ext 4901"
         ],
@@ -132,6 +201,12 @@
     {
         "name": "Centro Comercial El Retiro",
         "address": "Dirección:Calle 82 11-75 Local 124",
+        "latlon": [
+            [
+                4.6661664,
+                -74.0539591
+            ]
+        ],
         "phones": [
             "604 325 6600 ext 4000 - 604 448 0060"
         ],
@@ -142,6 +217,9 @@
     {
         "name": "Centro Comercial Plaza De Las Américas",
         "address": "Dirección: Cra. 71d # 6 – 94 Sur Local 1908",
+        "latlon": [
+            ""
+        ],
         "phones": [
             "3116447470"
         ],
@@ -152,6 +230,9 @@
     {
         "name": "Centro Comercial  Hacienda Santa Bárbara",
         "address": "Dirección: Av. Cra. 7 # 115 – 60 Local 220",
+        "latlon": [
+            ""
+        ],
         "phones": [
             "604 325 6600 ext 4000 - 604 448 0060"
         ],
@@ -162,6 +243,12 @@
     {
         "name": "Calle 119",
         "address": "Dirección: Calle 119 # 14 – 10",
+        "latlon": [
+            [
+                4.6988356,
+                -74.0407712
+            ]
+        ],
         "phones": [
             "604 325 6600 ext 4000 - 604 448 0060"
         ],
@@ -172,6 +259,12 @@
     {
         "name": "Ktronix Salitre",
         "address": "Dirección: Cra 68b # 25 B – 80",
+        "latlon": [
+            [
+                4.654961,
+                -74.1055062
+            ]
+        ],
         "phones": [
             "3116447470"
         ],
@@ -182,6 +275,12 @@
     {
         "name": "Calle 95",
         "address": "Dirección: Calle 95 # 13 – 55",
+        "latlon": [
+            [
+                4.68007,
+                -74.0486016
+            ]
+        ],
         "phones": [
             "604 325 6600 ext 4000 - 604 448 0060"
         ],
@@ -192,6 +291,9 @@
     {
         "name": "Aeropuerto Internacional El Dorado  - Puente Aéreo",
         "address": "Dirección: Terminal Puente Aéreo",
+        "latlon": [
+            ""
+        ],
         "phones": [
             "604 325 6600 ext 4000 - 604 448 0060"
         ],
@@ -202,6 +304,12 @@
     {
         "name": "Aeropuerto Internacional El Dorado -\nMuelle Sur",
         "address": "Dirección: Av. El Dorado # 113 – 85Muelle Nacional Sur – Segundo Piso",
+        "latlon": [
+            [
+                4.664007199999999,
+                -74.1103916
+            ]
+        ],
         "phones": [
             "Contacto: 316 017 5000"
         ],
@@ -212,6 +320,12 @@
     {
         "name": "Aeropuerto Internacional El Dorado -\nMuelle Norte",
         "address": "Dirección: Aeropuerto El Dorado – Terminal 1 muelle Nacional Norte",
+        "latlon": [
+            [
+                4.6983692,
+                -74.14133029999999
+            ]
+        ],
         "phones": [
             "604 325 6600 ext 4000 - 604 448 0060"
         ],
@@ -222,6 +336,12 @@
     {
         "name": "Aeropuerto Internacional \nEl Dorado - Salidas Internacionales\n",
         "address": "Dirección: Av. El Dorado # 113 – 85Salida Internacional – Segundo Piso",
+        "latlon": [
+            [
+                4.664007199999999,
+                -74.1103916
+            ]
+        ],
         "phones": [
             "604 325 6600 ext 4000 - 604 448 0060"
         ],
@@ -232,6 +352,12 @@
     {
         "name": "Aeropuerto Internacional El Dorado - Hall Público",
         "address": "Dirección: Aeropuerto El Dorado – Llegadas nacionales",
+        "latlon": [
+            [
+                4.6973538,
+                -74.1404212
+            ]
+        ],
         "phones": [
             "604 325 6600 ext 4000 - 604 448 0060"
         ],
@@ -242,6 +368,12 @@
     {
         "name": "Aeropuerto Internacional Los Garzones - Zona Pública",
         "address": "<p>Km 10 vía Montería<br/>Local 102 – Zona pública</p>",
+        "latlon": [
+            [
+                8.750983,
+                -75.8785348
+            ]
+        ],
         "phones": [
             "604 325 6600 ext 4000 - 604 448 0060"
         ],
@@ -252,6 +384,12 @@
     {
         "name": "Aeropuerto Internacional Los Garzones - Sala Abordaje ",
         "address": "<p>Km 10 vía Montería<br/>Local 107 – Sala de abordaje</p>",
+        "latlon": [
+            [
+                8.750983,
+                -75.8785348
+            ]
+        ],
         "phones": [
             "Contacto: 315 366 1214"
         ],
@@ -262,6 +400,9 @@
     {
         "name": "Aeropuerto Internacional Ernesto Cortissoz – Soledad, Barranquilla",
         "address": "<p>Frente al counter de Copa Air Lines<br/>Local 020516</p>",
+        "latlon": [
+            ""
+        ],
         "phones": [
             "604 325 6600 ext 4000 - 604 448 0060"
         ],
@@ -272,6 +413,12 @@
     {
         "name": "Aeropuerto Internacional Matecaña – Pereira, Risaralda",
         "address": "Dirección: Medellín Cra.43ª No. 8-44Bogotá Calle 73 No. 53-25",
+        "latlon": [
+            [
+                4.710988599999999,
+                -74.072092
+            ]
+        ],
         "phones": [
             "Medellín 325-66-00"
         ],

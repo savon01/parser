@@ -29,5 +29,6 @@
 
 
 4. Для парсинга данных с Веб-сайта 3 выполните следующую команду в терминале PyCharm:
-
+# ВАЖНО!
+## Перед выполеннием команды, неообходимо в переменную your_api_key в parser_senta_elena.py присвоить свой API KEY для Google Maps Geocoding API
     python parser_senta_elena.py
